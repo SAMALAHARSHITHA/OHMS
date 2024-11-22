@@ -16,9 +16,9 @@ st.title("2305A21L33-PS4: STAR to DELTA Resistance Calculator")
 
 # Input fields for R1, R2, R3
 st.header("Enter Star Connection Resistances:")
-R1 = st.number_input("R1 (in ohms):", min_value=0.0, format="%.2f", step=0.01)
-R2 = st.number_input("R2 (in ohms):", min_value=0.0, format="%.2f", step=0.01)
-R3 = st.number_input("R3 (in ohms):", min_value=0.0, format="%.2f", step=0.01)
+R1 = st.number_input("R1 (in kilo ohms):", min_value=0.0, format="%.2f", step=0.01)
+R2 = st.number_input("R2 (in kilo ohms):", min_value=0.0, format="%.2f", step=0.01)
+R3 = st.number_input("R3 (in kilo ohms):", min_value=0.0, format="%.2f", step=0.01)
 
 # Compute Delta resistances when the button is clicked
 if st.button("Compute"):
