@@ -12,7 +12,7 @@ def STAR_DELTA(R1, R2, R3):
     return R12, R23, R31
 
 # Streamlit app title
-st.title("02341A0259-PS4: STAR to DELTA Resistance Calculator")
+st.title("2305A21L33-PS4: STAR to DELTA Resistance Calculator")
 
 # Input fields for R1, R2, R3
 st.header("Enter Star Connection Resistances:")
